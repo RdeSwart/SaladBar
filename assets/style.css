@@ -34,7 +34,7 @@ nav {
     box-shadow: 0 2px 2px rgb(90, 85, 85);
     padding: 0 1rem;
     display:none;
-    left: 0;
+    left: 70%;
     top: 100%;
 }
 /*Nav Toggle*/
