@@ -82,12 +82,17 @@ main {
 
 /* Footer Style */
 footer {
-    
+    position: fixed;
     letter-spacing: 1em;
     font-size: 150%;
     display: flex;
     justify-content: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    
 }
-.socials{
-    color: #857f80;
+.socials a{
+    color: #4b3a3d;
 }
