@@ -15,6 +15,7 @@ header {
     flex-direction: row;
     padding: 0 1rem;
     position: fixed;
+    top:0;
     z-index: 3;
     background-color: rgb(248, 242, 242);
     width: 100%;
