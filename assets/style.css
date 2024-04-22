@@ -19,7 +19,7 @@ header {
     background-color: rgb(248, 242, 242);
     width: 100%;
     box-shadow: 0 2px 2px rgb(90, 85, 85);
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
 }
 header a {
@@ -41,6 +41,13 @@ nav {
 #nav-toggle:checked~nav {
     display:block;
 }
+#nav-toggle {
+    display:none;
+}
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 h1 {
     font-family: 'Vollkorn', sans-serif;
     letter-spacing: 2px;
@@ -65,6 +72,8 @@ main {
     height: 100vh;
     background-color: rgb(245, 238, 238);
     color: #857f80;
+    margin-top: 50px;
+    flex: 1 auto;
 }
 
 /* Footer Style */
