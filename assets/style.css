@@ -47,6 +47,11 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+ul{
+    list-style: none;
+    text-align: left;
+    padding: 1rem;
+}
 
 h1 {
     font-family: 'Vollkorn', sans-serif;
