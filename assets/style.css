@@ -90,6 +90,7 @@ main {
     background: url(".//images/salad-closeup-612x612.webp") no-repeat center center/cover;
     height: 33%;
     position: relative;
+   
 }
 .hero-text {
     text-align: center;
