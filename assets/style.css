@@ -87,12 +87,8 @@ main {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(194, 178, 178, 0.5), rgba(180, 167, 167, 0.5)),
-    url(../images/salad-closeup-612x612.webp);
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(".//images/salad-closeup-612x612.webp") no-repeat center center/cover;
+    height: 33%;
     position: relative;
 }
 .hero-text {
@@ -161,6 +157,4 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #857f80;
     }
-}
-
 }
