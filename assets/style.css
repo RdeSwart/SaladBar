@@ -184,6 +184,44 @@ footer {
     color: #4b3a3d;
 }
 
+/*Styling for thank-you page */
+.thank-you {
+    position: absolute;
+    display: flex;
+    border: 5px solid;
+    padding: 3rem;
+    text-align: center;
+    background: url(.//images/salad-closeup-612x612.webp) no-repeat center center / cover;
+
+    img {
+        opacity: 0.5;
+    }
+
+    .ty-message {
+        margin: 30px;
+        background-color: rgb(248, 242, 242);
+        border: 1px solid rgb(245, 238, 238);
+        opacity: 0.6;
+        color: black;
+        font-weight: bold;
+    }
+    .ty-message h2 p {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+}
+
+/*Media Query for phones and tablets (345px and up)*/
+@media screen and (min-width: 345px) {
+    .thank-you {
+        font-size: 100%;
+        justify-content: center;
+        position: relative;
+    }
+
+}
+
 /*Media Query for tablets and desktops (768px and up)*/
 @media screen and (min-width: 768px) {
     nav {
@@ -226,11 +264,25 @@ footer {
     .img-container {
         justify-content: space-between;
     }
+
+    .thank-you {
+        font-size: 200%;
+        justify-content: center;
+        position: relative;
+    }
 }
+
+
 
 /*Media Query for tablets and desktops (992px and up)*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #857f80;
+    }
+
+    .thank-you {
+        font-size: 200%;
+        justify-content: center;
+        position: relative;
     }
 }
