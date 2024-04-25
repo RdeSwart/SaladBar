@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="SaladBar,a family run business in Galway,Ireland.Fresh salads and Burrito bowls,for lunch and dinner.">
+    <meta name="description"
+        content="SaladBar,a family run business in Galway,Ireland.Fresh salads and Burrito bowls,for lunch and dinner.">
     <meta name="keywords" content="SaladBar, salads, fresh, food, burrito, rice, pasta, healthy,diet,galway,Ireland">
     <title>SaladBar</title>
     <!--Favicons-->
@@ -16,28 +17,64 @@
 
 <body>
     <!--Navigation Menu-->
-    <header><a href="index.html"><h1>SaladBar<i class="fa-solid fa-leaf"></i></h1>
-    </a>
-    <input type="checkbox" id="nav-toggle" name="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-    
-    <nav>
-        <ul id="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="signup.html">Signup</a></li>
-        </ul>
-    </nav>
+    <header><a href="index.html">
+            <h1>SaladBar<i class="fa-solid fa-leaf"></i></h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="signup.html">Signup</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>Main Content goes here</main>
+    <main>
+        <div class="contact-us">
+            <h1>Contact Us</h1>
+            <div class="contact-form">
+                <form action="thankyou.html" method="get">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" id="fname" required> <br>
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" id="lname" required> <br>
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email" required><br><br>
+                    
+                    <label for="message-form">Add your message below</label>
+                    <textarea rows="6" cols="50" maxlength="500"></textarea>
+                    <form>
+                        <input type="checkbox" id="agree" name="agree" required>
+                        <label for="agree">I agree to the Terms & Conditions</label><br><br>
+                    </form>
+                    <form>
+                        <p>let us know how you heard about us!</p>
+                        <select name="found" id="found">
+                            <option value="google" selected>Google</option>
+                            <option value="radio">Radio</option>
+                            <option value="social">Social Media</option>
+                            <option value="other">Other</option><br><br>
+                        </select>
+                    </form>
+                    <input type="submit" value="Submit">
+
+                </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
     <footer>
         <div class="socials">
-            <a href="https://www.facebook.com/login/" target="_blank" rel="noopener" aria-label="Visit our Facebook Page(opens in a new tab)"><i
-                    class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Join us on Instagram(opens in a new tab)"><i
-                    class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="See our Youtube Channel(opens in a new tab)"><i
-                    class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/login/" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook Page(opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                aria-label="Join us on Instagram(opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                aria-label="See our Youtube Channel(opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
         </div>
     </footer>
 </body>
