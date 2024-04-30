@@ -179,7 +179,7 @@ main {
     
 }
 table th td {
-    border: 1px solid #a59b9b61;
+    border: 2px solid #a59b9b61;
 }
 
 
@@ -208,7 +208,7 @@ footer {
     border: 5px solid;
     padding: 3rem;
     text-align: center;
-    background: url(../images/salad-closeup-612x612.webp) no-repeat center center / cover;
+    background: url(.//images/salad-closeup-612x612.webp) no-repeat center center / cover;
 
     img {
         opacity: 0.5;
@@ -227,6 +227,15 @@ footer {
         font-weight: bold;
         color: #000000;
     }
+}
+
+/*Styling for contact us page*/
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    
+
+
 }
 
 /*Media Query for phones and tablets (345px and up)*/
