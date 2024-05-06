@@ -120,7 +120,7 @@ main {
     }
 }
 
-/* Flexbox Images Main Page */
+/* Images Main Page */
 .img-container {
     position: absolute;
     display: flex;
@@ -167,6 +167,21 @@ main {
     }
 
 
+}
+/*This weeks promo*/
+.promo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #ffc0cb61;
+    color: #664f52;
+    padding: 3rem;
+    margin: 1050px 30px 30px 30px;
+    border: 2px dashed #05040461;
+}
+.offer-end {
+    font-size: smaller;
+    font-style: italic;
 }
 
 /*Table of opening hours*/
