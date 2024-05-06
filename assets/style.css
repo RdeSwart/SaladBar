@@ -79,6 +79,7 @@ body {
     max-width: 2000px;
     margin: 0 auto;
     min-height: 100vh;
+    font-size: 1.3rem;
 }
 
 main {
@@ -225,14 +226,28 @@ footer {
 }
 
 /*Styling for Menu page*/
-.salad-menu {
-    background-color: antiquewhite;
+.menu-page {
+    background-color: #ffc0cb45;
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     border: 2px solid #05040461;
+    line-height: 1.50;
+    letter-spacing: 2px;
+    padding: 0 50px;
     p{
         background-color: white;
     }
+}
+.salad-menu {
+    background-image: ;
+}
+.meal-deal {
+    border: 5px solid grey;
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+    background-color: #ffc0cb45
 }
 
 /*Styling for thank-you page */
