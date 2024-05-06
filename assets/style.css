@@ -163,7 +163,7 @@ main {
         position: absolute;
         color: white;
         font-weight: 900;
-        padding: 150px 150px;
+        padding: 150px 20px 50px 30px;
     }
 
 
@@ -187,7 +187,6 @@ main {
 /*Table of opening hours*/
 .open-hours {
     padding: 0 80px;
-    margin-top: 1000px;
     border: black;
     font-weight: 500;
     display: flex;
@@ -195,11 +194,16 @@ main {
     align-items: stretch;
     justify-content: space-evenly;
     flex-wrap: wrap;
+
+    h4 {
+        text-decoration: underline
+    }
     
 }
 table th td {
     border: 2px solid #a59b9b61;
 }
+
 
 
 /* Footer Style */
@@ -218,6 +222,17 @@ footer {
 
 .socials a {
     color: #4b3a3d;
+}
+
+/*Styling for Menu page*/
+.salad-menu {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #05040461;
+    p{
+        background-color: white;
+    }
 }
 
 /*Styling for thank-you page */
@@ -258,6 +273,7 @@ footer {
 .contact-form {
     display: flex;
     flex-direction: row;
+    margin:auto;
 
 
 
@@ -270,7 +286,9 @@ footer {
         justify-content: center;
         position: relative;
     }
+.img-container {
 
+}
 }
 
 /*Media Query for tablets and desktops (768px and up)*/
