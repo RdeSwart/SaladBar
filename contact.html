@@ -43,11 +43,12 @@
                         <label for="lname">Last Name</label>
                         <input type="text" tabindex="2" name="lname" id="lname" required> <br>
                         <label for="email">Email Address</label>
-                        <input type="email" tabindex="3" name="email" id="email" required><br><br>
-                    
+                        <input type="email" tabindex="3" name="email" id="email" required autocomplete="off"><br><br>
+                    <div class="message-form">
                     <label for="message-form">Add your message below</label>
                     <textarea rows="6" cols="50" maxlength="500" tabindex="4" id="message-form" name="message-form"></textarea>
-                    <form>
+                </div>
+                    <form class="agree">
                         <input type="checkbox" tabindex="5"  id="agree" name="agree" required>
                         <label for="agree">I agree to the Terms & Conditions</label><br><br>
                     </form>
