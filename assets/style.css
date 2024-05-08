@@ -245,9 +245,7 @@ footer {
     }
 }
 
-.salad-menu {
-    background-image: ;
-}
+
 
 .meal-deal {
     border: 5px solid grey;
@@ -297,9 +295,15 @@ footer {
 
 .contact-form {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     margin: auto;
-
+    justify-content: center;
+}
+.agree {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .pers-info {
     display: flex;
