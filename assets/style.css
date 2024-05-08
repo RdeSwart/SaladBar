@@ -102,10 +102,14 @@ main {
 .hero-text {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    background-color: rgb(248, 242, 242);
+    border: 1px solid rgb(245, 238, 238);
+    opacity: 0.6;
+    color: black;
+    font-weight: bold;
 }
 
 .about-us {
@@ -175,11 +179,11 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: #ffc0cb61;
     color: #664f52;
     padding: 3rem;
     margin: 1050px 30px 30px 30px;
     border: 2px dashed #05040461;
+    background: url(.//images/sale gif.gif) no-repeat center center / cover;
 }
 
 .offer-end {
