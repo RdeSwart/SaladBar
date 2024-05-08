@@ -35,7 +35,7 @@
         <div class="contact-us">
             <h1>Contact Us</h1>
             <div class="contact-form">
-                <form action="thankyou.html" method="get">
+                <form action="thankyou.html" method="get" id="form-info">
                     <fieldset id="personal-info">
                         <legend>Personal Information</legend>
                         <div class="pers-info">
@@ -48,8 +48,7 @@
                         </div>
                         <div class="pers-info">
                             <label for="email">Email Address</label>
-                            <input type="email" tabindex="3" name="email" id="email" required
-                                autocomplete="off">
+                            <input type="email" tabindex="3" name="email" id="email" required autocomplete="off">
                         </div>
                         <div class="message-form">
                             <label for="message-form">Add your message here</label>
@@ -59,32 +58,32 @@
                     </fieldset>
                 </form>
                 <div class="agree">
-                    <form>
+                    
                         <input type="checkbox" tabindex="5" id="agree" name="agree" required>
                         <label for="agree">I agree to the Terms & Conditions</label>
-                    </form>
+                    
                 </div>
-            
-            <div class="found">
-                <form>
-                    <p>Let us know how you heard about us!</p>
-                    <select name="found" id="found">
-                        <option value="google" selected>Google</option>
-                        <option value="radio">Radio</option>
-                        <option value="social">Social Media</option>
-                        <option value="other">Other</option>
-                    </select>
-                </form>
 
+                <div class="found">
+                
+                        <p>Let us know how you heard about us!</p>
+                        <select name="found" id="found">
+                            <option value="google" selected>Google</option>
+                            <option value="radio">Radio</option>
+                            <option value="social">Social Media</option>
+                            <option value="other">Other</option>
+                        </select>
+                
+                    
+                </div>
+                
+               
             </div>
-
-
-
+            <div class="submit">
+                <button type="submit" form="form-info" tabindex="6">Submit</button>
+            </form>
+            </div>
         </div>
-        <div class="submit">
-        <input type="submit" tabindex="6" value="Submit">
-    </div>
-</div>
     </main>
     <footer>
         <div class="socials">
