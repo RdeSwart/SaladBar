@@ -169,6 +169,7 @@ main {
 
 
 }
+
 /*This weeks promo*/
 .promo {
     display: flex;
@@ -180,6 +181,7 @@ main {
     margin: 1050px 30px 30px 30px;
     border: 2px dashed #05040461;
 }
+
 .offer-end {
     font-size: smaller;
     font-style: italic;
@@ -199,8 +201,9 @@ main {
     h4 {
         text-decoration: underline
     }
-    
+
 }
+
 table th td {
     border: 2px solid #a59b9b61;
 }
@@ -235,13 +238,17 @@ footer {
     line-height: 1.50;
     letter-spacing: 2px;
     padding: 0 50px;
-    p{
+    margin-top: 50px;
+
+    p {
         background-color: white;
     }
 }
+
 .salad-menu {
     background-image: ;
 }
+
 .meal-deal {
     border: 5px solid grey;
     margin: 50px;
@@ -271,6 +278,7 @@ footer {
         color: black;
         font-weight: bold;
     }
+
     .ty-message h2 p {
         margin: 5%;
         font-weight: bold;
@@ -284,14 +292,18 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 50px;
 }
+
 .contact-form {
     display: flex;
     flex-direction: row;
-    margin:auto;
+    margin: auto;
 
-
-
+}
+.pers-info {
+    display: flex;
+    flex-direction: column;
 }
 
 /*Media Query for phones and tablets (345px and up)*/
@@ -301,9 +313,8 @@ footer {
         justify-content: center;
         position: relative;
     }
-.img-container {
 
-}
+    .img-container {}
 }
 
 /*Media Query for tablets and desktops (768px and up)*/
