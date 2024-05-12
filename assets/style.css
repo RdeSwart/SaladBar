@@ -79,7 +79,6 @@ body {
     max-width: 2000px;
     margin: 0 auto;
     min-height: 100vh;
-    font-size: 1.3rem;
 }
 
 main {
@@ -184,7 +183,7 @@ main {
     padding: 3rem;
     margin: 1050px 30px 30px 30px;
     border: 2px dashed #05040461;
-    background: url(.//images/sale gif.gif) no-repeat center center / cover;
+    background: url(.//images/sale gif.gif) 50% 50% no-repeat;
 }
 
 .offer-end {
@@ -202,7 +201,7 @@ main {
     border: 2px solid #a59b9b61;
 
     h4 {
-        text-decoration: underline
+        text-decoration: underline;
     }
 
 }
@@ -245,11 +244,12 @@ footer {
     letter-spacing: 2px;
     padding: 0 50px;
     margin-top: 50px;
+}
 
-    p {
+    .menu-page > p {
         background-color: white;
     }
-}
+
 
 
 
