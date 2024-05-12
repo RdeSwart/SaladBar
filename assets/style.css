@@ -125,8 +125,8 @@ main {
     border: 2px solid #a59b9b61;
     text-align: center;
     padding: 0 1rem;
-    position: absolute;
-    margin-top: 250px;
+    position: relative;
+    margin-top: 450px;
 
     .salad-logo {
         font-weight: bold;
@@ -134,7 +134,7 @@ main {
     }
 }
 
-/* Images Main Page */
+/* Images Main Page 
 .img-container {
     position: absolute;
     display: flex;
@@ -144,8 +144,9 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     /*align-items: stretch;
-    align-content: space-around;*/
+    align-content: space-around;
     margin-top: 720px;
+    margin-left: 10px;
 
     .local-img {
         background: url(.//images/farmer-1487769.webp) no-repeat center center / cover;
@@ -160,11 +161,9 @@ main {
     .coffee-img {
         background: url(.//images/coffee-beans.webp) no-repeat center center / cover;
 
-    }
+    }*/
 
-    .local-img,
-    .loyalty-img,
-    .coffee-img {
+    /*.img-container {
         border-radius: 50%;
         max-width: 300px;
         max-height: 300px;
@@ -172,17 +171,17 @@ main {
         width: 90vw;
         margin-bottom: 20px;
         border: 5px solid;
-    }
-
+    }*/
+/*
     .img-text {
         position: absolute;
         color: white;
         font-weight: 900;
         padding: 150px 20px 50px 30px;
-    }
+    }*/
 
 
-}
+
 
 /*This weeks promo*/
 .promo {
@@ -209,6 +208,7 @@ main {
     display: grid;
     justify-items: center;
     border: 2px solid #a59b9b61;
+    margin: 0 30px;
 
     h4 {
         text-decoration: underline;
@@ -258,9 +258,6 @@ footer {
 .menu-page>p {
     background-color: white;
 }
-
-
-
 
 .meal-deal {
     border: 5px solid grey;
@@ -369,6 +366,10 @@ footer {
     main {
         margin-top: 144px;
     }
+    .about-us {
+        padding: 0 150px;
+        margin-top: 150px;
+    }
 
     .local-img,
     .loyalty-img,
@@ -378,6 +379,7 @@ footer {
 
     .img-container {
         justify-content: space-between;
+        margin-top: 600px;
     }
 
     .thank-you {
@@ -391,6 +393,7 @@ footer {
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
+        margin-top: 900px;
     }
 }
 
@@ -406,5 +409,8 @@ footer {
         font-size: 200%;
         justify-content: center;
         position: relative;
+    }
+    .img-container {
+        flex-direction: row;
     }
 }
