@@ -247,7 +247,7 @@ footer {
 .menu-page>p {
     background-color: white;
 }
-/*Change triangle to plus button for better clarity*/
+/*Change triangle icon to plus button for better clarity*/
 details > summary {
     list-style-type: none;
     cursor: pointer;
@@ -333,6 +333,20 @@ content: "-"
     flex-direction: column;
 }
 
+.shop-map {
+    margin-top:30px;
+     display: flex;
+     flex-direction: column;
+     border: 3px solid gray;
+     background-color: #8080802e;
+}
+
+.shop-map iframe {
+    height: 100%;
+    width: 100%;
+    
+}
+
 /*Media Query for phones and tablets (345px and up)*/
 @media screen and (min-width: 345px) {
     .thank-you {
@@ -408,6 +422,11 @@ content: "-"
         flex-direction: column;
         align-items: center;
         margin-top: 5%;
+    }
+    .shop-map {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 50px;
     }
 }
 
