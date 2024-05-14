@@ -59,10 +59,28 @@ ul {
     list-style: none;
     text-align: left;
     padding: 1rem;
+    line-height: 2em;
+    letter-spacing: .3em;
 }
 
-li:hover {
+/*li:hover {
     background-color: #dad4d5;
+    text-decoration: underline;
+}*/
+
+/*a:hover, a:focus {
+    text-decoration: underline;
+    background-color: #dad4d5;
+}
+
+a {
+    text-decoration: underline; 
+}*/
+
+a:visited, a:active{
+    text-decoration: underline;
+    background-color: #dad4d5;
+    
 }
 
 h1 {
@@ -126,7 +144,7 @@ main {
     text-align: center;
     padding: 0 1rem;
     position: relative;
-    margin-top: 250px;
+    margin-top: 280px;
 
     .salad-logo {
         font-weight: bold;
@@ -149,6 +167,7 @@ main {
     font-weight: bold;
     font-size: 2rem;
 }
+
 
 
 
@@ -228,6 +247,26 @@ footer {
 .menu-page>p {
     background-color: white;
 }
+/*Change triangle to plus button for better clarity*/
+details > summary {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+details>summary::before {
+    content: "+";
+    color:#05040461;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0;
+    margin: 5px 10px 0 0;
+}
+
+details[open] summary::before {
+content: "-"
+}
+
+
 
 .meal-deal {
     border: 5px solid grey;
