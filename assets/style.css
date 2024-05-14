@@ -77,10 +77,11 @@ a {
     text-decoration: underline; 
 }*/
 
-a:visited, a:active{
+a:visited,
+a:active {
     text-decoration: underline;
     background-color: #dad4d5;
-    
+
 }
 
 h1 {
@@ -181,7 +182,8 @@ main {
     padding: 3rem;
     margin: 0 30px 30px 30px;
     border: 2px dashed #05040461;
-    background: url(../images/sale-gif.gif) 50% 50% no-repeat;
+    background: url(./images/sale-gif.gif) 50% 50% no-repeat;
+    text-align: center;
 }
 
 .offer-end {
@@ -247,15 +249,16 @@ footer {
 .menu-page>p {
     background-color: white;
 }
+
 /*Change triangle icon to plus button for better clarity*/
-details > summary {
+details>summary {
     list-style-type: none;
     cursor: pointer;
 }
 
 details>summary::before {
     content: "+";
-    color:#05040461;
+    color: #05040461;
     font-size: 1.5em;
     font-weight: bold;
     padding: 0;
@@ -263,10 +266,17 @@ details>summary::before {
 }
 
 details[open] summary::before {
-content: "-"
+    content: "-"
 }
 
+.menu-images {
+    display: flex;
+    flex-direction: column;
+}
 
+#salad-image {
+    margin-top: 25px;
+}
 
 .meal-deal {
     border: 5px solid grey;
@@ -334,17 +344,17 @@ content: "-"
 }
 
 .shop-map {
-    margin-top:30px;
-     display: flex;
-     flex-direction: column;
-     border: 3px solid gray;
-     background-color: #8080802e;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid gray;
+    background-color: #8080802e;
 }
 
 .shop-map iframe {
     height: 100%;
     width: 100%;
-    
+
 }
 
 /*Media Query for phones and tablets (345px and up)*/
@@ -353,6 +363,10 @@ content: "-"
         font-size: 100%;
         justify-content: center;
         position: relative;
+    }
+
+    .promo {
+        background: url(./images/sale-gif.gif) 50% 50%;
     }
 
 }
@@ -409,6 +423,13 @@ content: "-"
         justify-content: space-between;
         /* margin-top: 600px;*/
     }
+    /*menu page*/
+    .menu-images {
+        position: absolute;
+        right:0;
+        margin-right:50px;
+    }
+
 
     .thank-you {
         font-size: 200%;
@@ -423,6 +444,7 @@ content: "-"
         align-items: center;
         margin-top: 5%;
     }
+
     .shop-map {
         flex-direction: row;
         justify-content: space-evenly;
