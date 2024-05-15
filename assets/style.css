@@ -1,5 +1,6 @@
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap')
+/* Main Styles based on Galaxy Fold Size*/
 
 /* Default all margins */
 * {
@@ -7,7 +8,6 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
-
 }
 
 /* Header Style */
@@ -81,14 +81,12 @@ a:visited,
 a:active {
     text-decoration: underline;
     background-color: #dad4d5;
-
 }
 
 h1 {
     font-family: 'Vollkorn', sans-serif;
     letter-spacing: 2px;
     color: #615d5e;
-
 }
 
 
@@ -121,8 +119,6 @@ main {
     height: 10%;
     position: absolute;
     width: 100%;
-
-
 }
 
 .hero-text {
@@ -149,7 +145,6 @@ main {
 
     .salad-logo {
         font-weight: bold;
-
     }
 }
 
@@ -168,10 +163,6 @@ main {
     font-weight: bold;
     font-size: 2rem;
 }
-
-
-
-
 
 /*This weeks promo*/
 .promo {
@@ -214,19 +205,14 @@ main {
     text-decoration: underline;
 }
 
-
-
 /* Footer Style */
 footer {
     letter-spacing: 1em;
     font-size: 150%;
     display: flex;
     justify-content: center;
-    /* right: 0;
-    bottom: 0;
-    left: 0;*/
     height: 40px;
-
+    background-color: #80808029;
 }
 
 .socials a {
@@ -246,8 +232,9 @@ footer {
     margin-top: 50px;
 }
 
-.menu-page>p {
+.menu-page p {
     background-color: white;
+    text-align: center;
 }
 
 /*Change triangle icon to plus button for better clarity*/
@@ -354,7 +341,6 @@ details[open] summary::before {
 .shop-map iframe {
     height: 100%;
     width: 100%;
-
 }
 
 /*Media Query for phones and tablets (345px and up)*/
@@ -365,14 +351,18 @@ details[open] summary::before {
         position: relative;
     }
 
-    .promo {
-        background: url(./images/sale-gif.gif) 50% 50%;
+
+    .about-us {
+        padding: 0 150px;
+        margin-top: 420px;
     }
 
 }
 
 /*Media Query for tablets and desktops (768px and up)*/
 @media screen and (min-width: 768px) {
+
+    /*navigation bar*/
     nav {
         display: block;
         position: relative;
@@ -383,7 +373,6 @@ details[open] summary::before {
 
     #menu {
         display: flex;
-
     }
 
     #menu>li {
@@ -396,12 +385,16 @@ details[open] summary::before {
 
     header {
         justify-content: space-between;
-        font-size: 180%;
+        font-size: 150%;
 
     }
 
+    /*Main Page*/
     main {
-        margin-top: 144px;
+        height:100vh;
+    }
+    .hero-image {
+        height:40%;
     }
 
     .about-us {
@@ -421,20 +414,8 @@ details[open] summary::before {
 
     .img-container {
         justify-content: space-between;
-        /* margin-top: 600px;*/
-    }
-    /*menu page*/
-    .menu-images {
-        position: absolute;
-        right:0;
-        margin-right:50px;
-    }
-
-
-    .thank-you {
-        font-size: 200%;
-        justify-content: center;
-        position: relative;
+        flex-direction: row;
+        margin-top: 50px;
     }
 
     .promo {
@@ -443,6 +424,42 @@ details[open] summary::before {
         flex-direction: column;
         align-items: center;
         margin-top: 5%;
+        background: url(./images/sale-gif.gif) 50% 50%;
+    }
+
+    /*menu page*/
+    .menu-page {
+        margin-top: 0;
+    }
+
+    .menu-page p {
+        width: 33%;
+    }
+
+    .menu-images {
+        position: absolute;
+        right: 0;
+        margin-right: 10px;
+        border: 3px solid gray;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 33%;
+        height: 250px;
+    }
+    /*Contact-us Page*/
+    .shop-map {
+        display: flex;
+        flex-direction: column;
+    }
+    .shop-map h2 {
+        text-align: center;
+    }
+
+    /*Thank-you Page*/
+    .thank-you {
+        font-size: 200%;
+        justify-content: center;
+        position: relative;
     }
 
     .shop-map {
@@ -468,5 +485,9 @@ details[open] summary::before {
 
     .img-container {
         flex-direction: row;
+    }
+
+    .promo {
+        background: url(./images/sale-gif.gif) 50% 50%;
     }
 }
