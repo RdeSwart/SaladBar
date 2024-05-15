@@ -136,12 +136,11 @@ main {
 
 .about-us {
     background-color: #8080801f;
-    color: #664f52;
-    border: 2px solid #a59b9b61;
+    color: #664f52
     text-align: center;
     padding: 0 1rem;
     position: relative;
-    margin-top: 280px;
+    margin-top: 320px;
 
     .salad-logo {
         font-weight: bold;
@@ -188,9 +187,11 @@ main {
     border: black;
     font-weight: 500;
     display: grid;
-    justify-items: center;
+    justify-content: center;
     border: 2px solid #a59b9b61;
     margin: 0 30px;
+    text-align: center;
+    overflow: hidden;
 
     h4 {
         text-decoration: underline;
@@ -336,12 +337,21 @@ details[open] summary::before {
     align-items: center;
 }
 
-.shop-map {
+/*.shop-map-main {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     border: 3px solid gray;
     background-color: #8080802e;
+    width: 200%;
+}*/
+
+.shop-map { 
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        border: 3px solid gray;
+        background-color: #8080802e;
 }
 
 .shop-map iframe {
@@ -358,10 +368,10 @@ details[open] summary::before {
     }
 
 
-    .about-us {
+   /* .about-us {
         padding: 0 150px;
         margin-top: 420px;
-    }
+    }*/
 
 }
 
@@ -396,17 +406,18 @@ details[open] summary::before {
     }
 
     /*Main Page*/
-    main {
-        height: 100vh;
-    }
+    /*main {
+        height: 100%;
+    }*/
 
     .hero-image {
-        height: 40%;
+        height: 20%;
     }
 
     .about-us {
-        padding: 0 150px;
+        padding: 50px 150px 0;
         margin-top: 420px;
+        
     }
 
     .local-img,
