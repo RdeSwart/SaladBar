@@ -26,9 +26,9 @@ The website is a great place to view the current menus and if there are any spec
 users browser. Poppins is a very popular and trendy font at the moment in web design due to its aesthetic and easy-readability.
 ## WireFrame
 Keeping the 5 Planes, proposed by Jessie James Garrett, in mind, I used the Balsamic website to create the wireframe for the SaladBar website. Having decided on the Strategy, Scope and Structure planes, I set about planning its Skeleton and what would become my vision of the Surface Plane.
-* Home Page WireFrame [View Here] (documentation/SaladBar Windows.bmpr)
-* Menu Page WireFrame [View Here] (documentation/Menu page smartphone.bmpr)
-* Contact Page WireFrame [View Here] (documentation/Contact us page Ipad.bmpr)
+* Home Page WireFrame [View Here](documentation/SaladBar Windows.bmpr)
+* Menu Page WireFrame [View Here](documentation/Menu page smartphone.bmpr)
+* Contact Page WireFrame [View Here](documentation/Contact us page Ipad.bmpr)
 ## Features
 _Navigation_
 The pages navigation Bar is situated at the top of the screen, as most users would expect it to be.  It is identical on all pages, clear on how to use it having it displayed on all pages, prevents the need to use the back button.
