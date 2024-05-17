@@ -212,10 +212,14 @@ footer {
     letter-spacing: 1em;
     font-size: 150%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 40px;
     background-color: #80808029;
     padding: 15px 15px;
+}
+.copyrights {
+    letter-spacing: 2px;
+    font-weight: bold;
 }
 
 .socials a {
