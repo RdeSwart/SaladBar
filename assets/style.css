@@ -212,14 +212,16 @@ footer {
     letter-spacing: 1em;
     font-size: 150%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 40px;
     background-color: #80808029;
     padding: 15px 15px;
+    flex-wrap: wrap;
 }
 .copyrights {
     letter-spacing: 2px;
     font-weight: bold;
+    font-size: 15px;
 }
 
 .socials a {
@@ -527,6 +529,19 @@ button {
     .found {
         align-items: center;
         flex-direction: column;
+    }
+    /*Footer*/
+    footer {
+        letter-spacing: 1em;
+        font-size: 150%;
+        display: flex;
+        justify-content: space-around;
+        height: 40px;
+        background-color: #80808029;
+        padding: 15px 15px;
+    }
+    .copyrights {
+        font-size: 15px;
     }
 
 
