@@ -132,7 +132,9 @@ main {
 }
 
 /* Images Main Page */
-.local-img, .loyalty-img, .coffee-img {
+.local-img,
+.loyalty-img,
+.coffee-img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -446,6 +448,11 @@ button {
 
     .menu-page p {
         width: 33%;
+    }
+
+    .found {
+        align-items: center;
+        flex-direction: column;
     }
 }
 
