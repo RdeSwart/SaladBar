@@ -490,6 +490,10 @@ button {
     /*menu page*/
     .menu-page {
         margin-top: 0;
+        background: linear-gradient(120deg, #ffc0cb, #efb1ee2e);
+        box-shadow: 10px 10px 15px #80808091;
+        margin: 30px;
+        border-radius: 25px;
     }
 
     .menu-page p {
@@ -497,14 +501,22 @@ button {
     }
 
     .menu-images {
-        position: absolute;
+        position: relative;
         right: 0;
         margin-right: 10px;
         border: 3px solid gray;
         border-radius: 50%;
         overflow: hidden;
-        width: 33%;
+        width: 250px;
         height: 250px;
+        float: right;
+    }
+    #salad-image {
+        margin-top: 100px;
+    }
+
+    #acai-image {
+        margin-bottom: 50px;
     }
 
     /*Contact-us Page*/
