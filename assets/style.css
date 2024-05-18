@@ -173,7 +173,7 @@ main {
     padding: 3rem;
     margin: 0 30px 30px 30px;
     border: 2px dashed #05040461;
-    background: url(./images/sale-gif.gif) 50% 50% no-repeat;
+    background: url(./images/sale-gif.gif) center center / cover no-repeat;
     text-align: center;
 }
 
@@ -389,6 +389,40 @@ button {
     height: 100%;
     width: 100%;
 }
+/*Media Query for phones (280px to 330px)*/
+@media screen and (min-width:280px) and (max-width: 330px) {
+    header {
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    /*Menu Page */
+    .meal-deal {
+        margin: 30px;
+        padding: 30px;
+        height: 150px;
+        width: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .menu-page {
+        margin-top: 0;
+    }
+    .shop-map-main h2 {
+        font-size: 18px;
+    }
+
+    /*Main Page*/
+    .local-img
+    .loyalty-img
+    .coffee-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+}
 
 /*Media Query for phones and tablets (345px and up)*/
 @media screen and (min-width: 345px) {
@@ -489,7 +523,7 @@ button {
 
     /*menu page*/
     .menu-page {
-        margin-top: 0;
+        margin-top: 50px;
         background: linear-gradient(120deg, #ffc0cb, #efb1ee2e);
         box-shadow: 10px 10px 15px #80808091;
         margin: 30px;
@@ -523,7 +557,8 @@ button {
     .shop-map {
         flex-direction: column;
         justify-content: space-evenly;
-        margin: 50px;
+        margin: 300px;
+        height: 300px;
     }
 
     .shop-map h2 {
@@ -536,7 +571,7 @@ button {
     }
 
     .contact-us {
-        margin-top: 80px;
+        margin: 33%;
     }
     .found {
         align-items: center;
