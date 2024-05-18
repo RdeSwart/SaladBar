@@ -1,6 +1,5 @@
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap')
-/* Main Styles based on Galaxy Fold Size*/
 
 /* Default all margins */
 * {
@@ -63,20 +62,6 @@ ul {
     letter-spacing: .3em;
 }
 
-/*li:hover {
-    background-color: #dad4d5;
-    text-decoration: underline;
-}*/
-
-/*a:hover, a:focus {
-    text-decoration: underline;
-    background-color: #dad4d5;
-}
-
-a {
-    text-decoration: underline; 
-}*/
-
 a:visited,
 a:active {
     text-decoration: underline;
@@ -88,7 +73,6 @@ h1 {
     letter-spacing: 2px;
     color: #615d5e;
 }
-
 
 /* Main body Styles */
 body {
@@ -147,7 +131,6 @@ main {
     font-weight: bold;
 }
 
-
 /* Images Main Page */
 
 .img-text {
@@ -195,16 +178,14 @@ main {
     overflow: hidden;
 
     h4 {
-        text-decoration: underline;
+        background-color: #80808063;
     }
-
 }
 
 .grid-info-day {
     font-weight: bold;
     letter-spacing: 1px;
     line-height: 1.6;
-    text-decoration: underline;
 }
 
 /* Footer Style */
@@ -218,6 +199,7 @@ footer {
     padding: 15px 15px;
     flex-wrap: wrap;
 }
+
 .copyrights {
     letter-spacing: 2px;
     font-weight: bold;
@@ -243,6 +225,10 @@ footer {
 
 .menu-page p {
     background-color: white;
+    text-align: center;
+}
+
+.menu-page h2 {
     text-align: center;
 }
 
@@ -308,14 +294,13 @@ details[open] summary::before {
     color: #000000e8;
 }
 
-
 /*Styling for contact us page*/
 .contact-us {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(120deg, #ffc0cb, #efb1ee2e);
-    box-shadow: 10px 10px 15px #80808091;
+    background: linear-gradient(120deg, rgb(245, 238, 238), #efb1ee59);
+    box-shadow: 10px 10px 15px #808080;
     margin: 30px;
     border-radius: 25px;
 }
@@ -389,12 +374,14 @@ button {
     height: 100%;
     width: 100%;
 }
+
 /*Media Query for phones (280px to 330px)*/
 @media screen and (min-width:280px) and (max-width: 330px) {
     header {
         align-content: center;
         flex-wrap: wrap;
     }
+
     /*Menu Page */
     .meal-deal {
         margin: 30px;
@@ -409,23 +396,30 @@ button {
     .menu-page {
         margin-top: 0;
     }
+
     .shop-map-main h2 {
         font-size: 18px;
     }
 
     /*Main Page*/
-    .local-img
-    .loyalty-img
+    .local-img .loyalty-img .coffee-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+}
+
+/*Media Query for phones and tablets (345px and up)*/
+@media screen and (min-width: 345px) {
+    .local-img,
+    .loyalty-img,
     .coffee-img {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-    
-}
 
-/*Media Query for phones and tablets (345px and up)*/
-@media screen and (min-width: 345px) {
     .thank-you {
         font-size: 100%;
         justify-content: center;
@@ -434,6 +428,24 @@ button {
 
     .about-us {
         margin-top: 350px;
+    }
+
+    .menu-images {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 0;
+        margin-right: 10px;
+        border: 3px solid gray;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 100px;
+        height: 100px;
+        float: right;
+    }
+
+    .menu-page p {
+        width: 33%;
     }
 }
 
@@ -473,7 +485,7 @@ button {
 
     .about-us {
         padding: 50px 150px 0;
-        margin-top: 420px;
+        margin-top: 550px;
     }
 
     .local-img,
@@ -521,10 +533,14 @@ button {
         background: url(./images/sale-gif.gif) 50% 50%;
     }
 
+    .promo-detail {
+        font-size: 3rem;
+    }
+
     /*menu page*/
     .menu-page {
         margin-top: 50px;
-        background: linear-gradient(120deg, #ffc0cb, #efb1ee2e);
+        background: linear-gradient(120deg, #ffc0cb45, #efb1ee2e);
         box-shadow: 10px 10px 15px #80808091;
         margin: 30px;
         border-radius: 25px;
@@ -545,6 +561,7 @@ button {
         height: 250px;
         float: right;
     }
+
     #salad-image {
         margin-top: 100px;
     }
@@ -557,8 +574,9 @@ button {
     .shop-map {
         flex-direction: column;
         justify-content: space-evenly;
-        margin: 300px;
-        height: 300px;
+        margin: 0 25% 25%;
+        height: 250px;
+        width: 50%;
     }
 
     .shop-map h2 {
@@ -571,12 +589,14 @@ button {
     }
 
     .contact-us {
-        margin: 33%;
+        margin: 100px 33%;
     }
+
     .found {
         align-items: center;
         flex-direction: column;
     }
+
     /*Footer*/
     footer {
         letter-spacing: 1em;
@@ -587,10 +607,10 @@ button {
         background-color: #80808029;
         padding: 15px 15px;
     }
+
     .copyrights {
         font-size: 15px;
     }
-
 
     /*Thank-you Page*/
     .thank-you {
@@ -600,7 +620,6 @@ button {
     }
 
 }
-
 
 
 /*Media Query for tablets and desktops (992px and up)*/
