@@ -1,8 +1,8 @@
 # SaladBar Website
 SaladBar is a fictional Cafe that, as the name suggests, sells an array of salads. Their motto is to eat healthy and tasty food. The site's target audience is everyone who wants to adopt a healthier diet, people trying to lose weight and those who want to support local produce and services.
 The website is a great place to view the current menus and if there are any special offers on. They will also be able to get in touch to order catering for parties or events.  
+![Am I responsive Screenshot](documentation/am-i-responsive.png)
 
-//Put in screenshot from ami.responsive.is//
 
 ## User Experience and Interface(UX/UI) 
 #### First Time Visitor Goals  
@@ -82,6 +82,8 @@ The website has been tested on Google Chrome, Safari and Firefox and all rendere
 ## Validator Testing
   * HTML
     *No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+![HTML Validation](<documentation/HTML Validator.png>)
+
   * CSS
     *No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
   * Lighthouse
