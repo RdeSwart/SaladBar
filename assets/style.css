@@ -1,6 +1,5 @@
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap')
-
 /* Default all margins */
 
 * {
@@ -62,7 +61,6 @@ ul {
     line-height: 2em;
     letter-spacing: .3em;
 }
-
 
 .active {
     border-bottom: 2px solid rgb(65, 56, 56);
@@ -414,6 +412,7 @@ button {
 /*Media Query for phones and tablets (345px and up)*/
 @media screen and (min-width: 345px) {
 
+    /*Main Page*/
     .local-img,
     .loyalty-img,
     .coffee-img {
@@ -422,16 +421,11 @@ button {
         justify-content: space-evenly;
     }
 
-    .thank-you {
-        font-size: 100%;
-        justify-content: center;
-        position: relative;
-    }
-
     .about-us {
         margin-top: 350px;
     }
 
+    /*Menu Page*/
     .menu-images {
         display: flex;
         flex-direction: column;
@@ -450,9 +444,21 @@ button {
         width: 33%;
     }
 
+    /*Contact Page*/
     .found {
         align-items: center;
         flex-direction: column;
+    }
+
+    .shop-map h2 {
+        text-align: center;
+    }
+
+    /*Thank you page*/
+    .thank-you {
+        font-size: 100%;
+        justify-content: center;
+        position: relative;
     }
 }
 
@@ -479,8 +485,8 @@ button {
     .nav-toggle-label {
         display: none;
     }
-    /*Main*/
 
+    /*Main*/
     header {
         justify-content: space-between;
         font-size: 150%;
@@ -545,7 +551,7 @@ button {
         font-size: 3rem;
     }
 
-    /*menu page*/
+    /*Menu page*/
     .menu-page {
         margin-top: 50px;
         background: linear-gradient(120deg, #ffc0cb45, #efb1ee2e);
@@ -632,16 +638,13 @@ button {
 
 /*Media Query for tablets and desktops (992px and up)*/
 @media screen and (min-width: 992px) {
+
+    /*Nav Header*/
     #menu a:hover {
         border-bottom: 1px solid #857f80;
     }
 
-    .thank-you {
-        font-size: 200%;
-        justify-content: center;
-        position: relative;
-    }
-
+    /*Main Page*/
     .img-container {
         flex-direction: row;
         width: 100%;
@@ -656,5 +659,12 @@ button {
 
     .promo {
         background: url(./images/sale-gif.gif) 50% 50%;
+    }
+
+    /*Thank you page*/
+    .thank-you {
+        font-size: 200%;
+        justify-content: center;
+        position: relative;
     }
 }
