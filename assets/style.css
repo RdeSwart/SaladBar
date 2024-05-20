@@ -279,7 +279,6 @@ details[open] summary::before {
 
 /*Styling for thank-you page */
 .thank-you {
-    /*position: absolute;*/
     display: flex;
     border: 5px solid #808080a8;
     padding: 3rem;
@@ -480,6 +479,7 @@ button {
     .nav-toggle-label {
         display: none;
     }
+    /*Main*/
 
     header {
         justify-content: space-between;
