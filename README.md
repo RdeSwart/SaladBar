@@ -33,15 +33,15 @@ The website is a great place to view the current menus and if there are any spec
 users browser. Poppins is a very popular and trendy font at the moment in web design due to its aesthetic and easy-readability.
 ## WireFrame
 Keeping the 5 Planes, proposed by Jessie James Garrett, in mind, I used the Balsamic website to create the wireframe for the SaladBar website. Having decided on the Strategy, Scope and Structure planes, I set about planning its Skeleton and what would become my vision of the Surface Plane.
-* Home Page WireFrame
+* Home Page WireFrame (Windows)
 <p align="center">
 <img src="documentation/balsamic-home-page.png" width="200"></p>
 
-* Menu Page WireFrame
+* Menu Page WireFrame (IPhone)
 <p align="center">
 <img src="documentation/balsamic-menu-page.png" width="200"></p>
 
-* Contact Page WireFrame
+* Contact Page WireFrame (IPad)
 <p align="center">
 <img src="documentation/balsamic-contact-page.png" width="200"></p>
 
@@ -118,8 +118,11 @@ The website has been tested on Google Chrome, Safari and Firefox and all rendere
 ![alt text](documentation/jigsaw-validation.png)
 
   * Lighthouse
-    * The website scored high when passed through Lighthouse 
-![alt text](documentation/lighthouse-validation.png)
+    * The website scored high when passed through Lighthouse on both Desktop and Mobile.
+![Main Page](documentation/lighthouse-main-page.png)
+![Contact](documentation/lighthouse-contact-page.png)
+![Menu](documentation/lighthouse-menu-page.png)
+
 
   * Wave
     * The one error found when validating through [Wave](https://wave.webaim.org), was an empty label which was used for the nav toggle menu. I chose to leave it blank as it is a checkbox and  used instead of JavaScript to make the nav bar responsive and more aesthetic.
