@@ -144,6 +144,14 @@ The SaladBar site was deployed to GitHub pages. The steps to deploy are as follo
 2. From the source section drop-down menu, select the Master Branch.
 3. Once this is selected, the page will be automatically refreshed with a detailed ribbon display to indicate successful deployment.
 The live link can be found on GitHub [here](https://rdeswart.github.io/SaladBar)
+#### Local Deployment
+The steps to clone this project to create a local copy are as follows:
+1. In GitHub.com, go to the main page of the repository.
+2. Click on the green code button.
+3. Copy the URL for the repository
+4. Open the terminal in the location you wish the repository to be cloned.
+5. Type `git clone` and then paste the URL
+
 ## Credits
 ### Content
 * Favicons: [Icons8 website](https://icons8.com/icon/XSG6KMba4zKy/salad)
