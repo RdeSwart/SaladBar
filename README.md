@@ -39,7 +39,7 @@ Keeping the 5 Planes, proposed by Jessie James Garrett, in mind, I used the Bals
 
 * Menu Page WireFrame
 <p align="center">
-<img src="documentation/menu-page.png" width="200"></p>
+<img src="documentation/balsamic-menu-page.png" width="200"></p>
 
 * Contact Page WireFrame
 <p align="center">
@@ -123,6 +123,7 @@ The website has been tested on Google Chrome, Safari and Firefox and all rendere
 
   * Wave
     * The one error found when validating through [Wave](https://wave.webaim.org), was an empty label which was used for the nav toggle menu. I chose to leave it blank as it is a checkbox and  used instead of JavaScript to make the nav bar responsive and more aesthetic.
+    
 ![alt text](documentation/wave-validation.png)
 
 ### Solved Bugs
