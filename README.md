@@ -27,10 +27,10 @@ The website is a great place to view the current menus and if there are any spec
 ### Colour Scheme
 + I chose to use a grey and very light pink for the SaladBar's colour scheme.
 + According to Noupe.com, "In summary, grey represents calm, sophistication, wisdom and is of course overarchingly architectural." which is the kind of positive emotion I am aiming for the site.
-+ I wanted to use the softness of the lighter hue of pink to evoke feelings of comfort, warmth and nuture.  
++ I wanted to use the softness of the lighter hue of pink to evoke feelings of comfort, warmth and nurture.  
 ### Typography
 + I used Poppins as the main font, with Sans-serif to fall back on, should Poppins not load properly in the
-users browser. Poppins is a very popular and trendy font at the moment in web design due to its aesthetic and easy-readability.
+users' browser. Poppins is a very popular and trendy font at the moment in web design due to its aesthetic and easy-readability.
 ## WireFrame
 Keeping the 5 Planes, proposed by Jessie James Garrett, in mind, I used the Balsamic website to create the wireframe for the SaladBar website. Having decided on the Strategy, Scope and Structure planes, I set about planning its Skeleton and what would become my vision of the Surface Plane.
 * Home Page WireFrame (Windows)
@@ -47,7 +47,7 @@ Keeping the 5 Planes, proposed by Jessie James Garrett, in mind, I used the Bals
 
 ## Features
 #### Navigation
-The pages navigation Bar is situated at the top of the screen, as most users would expect it to be.  It is identical on all pages. Having it displayed on all pages, prevents the need to use the back button.
+The page's navigation Bar is situated at the top of the screen, as most users would expect it to be.  It is identical on all pages. Having it displayed on all pages, prevents the need to use the back button.
   * The Links are situated on the top right of the page and will navigate the user to the Home Page, the Menu Page and the Contact Page.
     * The active page link has an underline and background colour for user clarity as to what page they are on at the moment.
   * The SaladBar name logo is situated on the top left of the page and is also a link back to the top of the Home Page if clicked.
@@ -105,7 +105,7 @@ The website has been tested on Google Chrome, Safari and Firefox and all rendere
   | No T's & C's checked on form | Pop up message | Pass |
   | Dropdown media list on form | List of options | Pass |
   | Click Submit | Thank You message displays | Pass |
-  | Tab Index for accessability | Tab through fields | Pass |
+  | Tab Index for accessibility | Tab through fields | Pass |
   | Double click on Google Maps | Zoom in to map | Pass |
   | Images broken filepath | See alt text | Pass |
 ## Validator Testing
@@ -131,7 +131,7 @@ The website has been tested on Google Chrome, Safari and Firefox and all rendere
 
 ### Solved Bugs
 * Form not submitting successfully
-  * I put the form into seperate Div's and changed the ID to match the Submit Button.
+  * I put the form into separate Div's and changed the ID to match the Submit Button.
 * Parse error in CSS Validation
   * Move Google fonts link to bottom of Style Sheet.
 
