@@ -2,7 +2,7 @@
 SaladBar is a fictional Cafe that, as the name suggests, sells an array of salads. Their motto is to eat healthy and tasty food. The site's target audience is everyone who wants to adopt a healthier diet, people trying to lose weight and those who want to support local produce and services.
 The website is a great place to view the current menus and if there are any special offers on. They will also be able to get in touch to order catering for parties or events.  
 ![Am I responsive Screenshot](documentation/am-i-responsive.png)
-## Contents
+## Table of Contents:
 * [User Experience](#user-experience-and-interface(UX/UI))
 * [Design](#design )
 * [Wireframe](#wireFrame)
@@ -33,9 +33,13 @@ The website is a great place to view the current menus and if there are any spec
 users browser. Poppins is a very popular and trendy font at the moment in web design due to its aesthetic and easy-readability.
 ## WireFrame
 Keeping the 5 Planes, proposed by Jessie James Garrett, in mind, I used the Balsamic website to create the wireframe for the SaladBar website. Having decided on the Strategy, Scope and Structure planes, I set about planning its Skeleton and what would become my vision of the Surface Plane.
-* Home Page WireFrame [View Here](documentation/SaladBar-windows.bmpr)
-* Menu Page WireFrame [View Here](documentation/Menu-page-smartphone.bmpr)
-* Contact Page WireFrame [View Here](documentation/Contact-us-page-Ipad.bmpr)
+* Home Page WireFrame
+![alt text](documentation/balsamic-home-page.png)
+* Menu Page WireFrame
+![alt text](documentation/balsamic-menu-page.png)
+* Contact Page WireFrame
+![alt text](documentation/balsamic-contact-page.png)
+
 ## Features
 #### Navigation
 The pages navigation Bar is situated at the top of the screen, as most users would expect it to be.  It is identical on all pages. Having it displayed on all pages, prevents the need to use the back button.
@@ -100,21 +104,30 @@ The website has been tested on Google Chrome, Safari and Firefox and all rendere
   | Images broken filepath | See alt text | Pass |
 ## Validator Testing
   * HTML
-    *No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+    * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
 ![HTML Validation](<documentation/HTML Validator.png>)
 
   * CSS
-    *No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+    * No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+![alt text](documentation/jigsaw-validation.png)
+
   * Lighthouse
-    * ADD LIGHTHOUSE SCREENSHOTS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    * The website scored high when passed through Lighthouse 
+![alt text](documentation/lighthouse-validation.png)
+
   * Wave
-    * ADD WAVE SCREENSHOTS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    * The one error found when validating through [Wave](https://wave.webaim.org), was an empty label which was used for the nav toggle menu. I chose to leave it blank as it is a checkbox and  used instead of JavaScript to make the nav bar responsive and more aesthetic.
+![alt text](documentation/wave-validation.png)
+
 ### Solved Bugs
 * Form not submitting successfully
   * I put the form into seperate Div's and changed the ID to match the Submit Button.
+* Parse error in CSS Validation
+  * Move Google fonts link to bottom of Style Sheet.
 
 ### Unfixed Bugs
-  * ADD BUGS HERE - POSSIBLY UNIVERSAL SELECTOR WHICH KEEPS THROWING UP A MESSAGE!!!!!!!!!!!!!!!
+  * There are no unfixed bugs
+
 ## Deployment
 The SaladBar site was deployed to GitHub pages. The steps to deploy are as follows:
 1. In the GitHub repository, navigate to the Settings Tab.
