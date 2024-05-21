@@ -307,6 +307,11 @@ details[open] summary::before {
     border-radius: 25px;
 }
 
+.required::after {
+    content: "*";
+    color: #ff0000;
+}
+
 .contact-form {
     display: flex;
     flex-wrap: wrap;
