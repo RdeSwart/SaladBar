@@ -131,6 +131,7 @@ and [Coco di Mama website](https://www.cocodimama.co.uk/menus/instore-menu/theho
 * Instruction on how to embed Google Maps: [Jamie Juviler](https://blog.hubspot.com/website/how-to-embed-google-map-in-html)
 * C.I Tutor Support - Tutor Roman helped me fix the footer and cleared my understanding of positioning.
 * C.I Love Running - Help and Inspiration for Nav Bar
+* Info on how to change the default details icon on menu page [Mdn Webdocs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details)
 ### Media
 * Images: [Free Images Website](https://www.freeimages.com/)
 * Fonts: [Google Fonts website](https://fonts.google.com/)
