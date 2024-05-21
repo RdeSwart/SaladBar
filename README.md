@@ -34,11 +34,16 @@ users browser. Poppins is a very popular and trendy font at the moment in web de
 ## WireFrame
 Keeping the 5 Planes, proposed by Jessie James Garrett, in mind, I used the Balsamic website to create the wireframe for the SaladBar website. Having decided on the Strategy, Scope and Structure planes, I set about planning its Skeleton and what would become my vision of the Surface Plane.
 * Home Page WireFrame
-![alt text](documentation/balsamic-home-page.png)
+
+<img src="documentation/balsamic-home-page.png" width="200">
+
 * Menu Page WireFrame
-![alt text](documentation/balsamic-menu-page.png)
+
+<img src="documentation/menu-page.png" width="200">
+
 * Contact Page WireFrame
-![alt text](documentation/balsamic-contact-page.png)
+
+<img src="documentation/balsamic-contact-page.png" width="200">
 
 ## Features
 #### Navigation
